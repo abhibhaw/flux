@@ -1,4 +1,6 @@
-
+provider "aws" {
+  region = "ap-south-1"  # Change to your desired AWS region
+}
 locals {
   cluster_name = "sandbox-vpc-eks-test"
 }
