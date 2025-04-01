@@ -13,7 +13,7 @@ module "vpc_eks" {
 
   cidr                  = "10.20.0.0/19"
 
-  azs             = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+  azs             = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
   private_subnets = ["10.20.0.0/21", "10.20.8.0/21", "10.20.16.0/21"]
   public_subnets  = ["10.20.24.0/23", "10.20.26.0/23", "10.20.28.0/23"]
 
